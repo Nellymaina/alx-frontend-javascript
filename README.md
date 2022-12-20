@@ -1,1 +1,1 @@
-My short specialisation frontend repo for the alx SE Program
+My short specialisation frontend repo for the ALX SE Program
