@@ -7,5 +7,3 @@ export default function appendToEachArrayValue(array, appendString) {
 
   return array;
 }
-Footer
-© 2022 Git
