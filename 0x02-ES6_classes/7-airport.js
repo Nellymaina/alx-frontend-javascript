@@ -5,6 +5,6 @@ export default class Airport {
   }
 }
 
-Aiport.prototype.toString=()=>{
+Airport.prototype.toString=()=>{
     return `[object ${this._code}]`;
 }
