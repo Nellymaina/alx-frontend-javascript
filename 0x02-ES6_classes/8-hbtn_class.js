@@ -9,7 +9,7 @@ get size(){
   }
     
     else if(typeof(this.location)==='number'){
-    return this._location;
+     this._location=this.size;
     }
 }
   get location(){
@@ -17,7 +17,7 @@ get size(){
       return this._location;
     }
       else if( typeof(this._size)==='string'){
-      return this._size
+      this._size=this.location;
       }
     }
 }
