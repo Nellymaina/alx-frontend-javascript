@@ -3,23 +3,11 @@ export default class HolbertonClass {
     this._size = size;
     this._location = location;
   }
-get size(){
-  if(typeof(this._size)==='number'){
-    return this._size;
+[Symbol.toPrimitive](hint) {
+    if (hint === 'number') return this._size;
+    if (hint === 'string') return this._location;
+    return this;
   }
-    
-    else if(typeof(this.location)==='number'){
-     this._location=this.size;
-    }
-}
-  get location(){
-    if(typeof(this._location)==='string'){
-      return this._location;
-    }
-      else if( typeof(this._size)==='string'){
-      this._size=this.location;
-      }
-    }
 }
 
  
